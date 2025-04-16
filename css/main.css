@@ -1447,7 +1447,7 @@ input::-moz-focus-inner {
 .s-header {
   z-index: 100;
   width: 100vw;
-  height: 8rem;
+  height: 10rem;
   position: absolute;
   top: 4rem;
   left: 0;
@@ -1467,7 +1467,7 @@ input::-moz-focus-inner {
   transform: translate3d(0, -50%, 0);
   position: absolute;
   right: 8rem;
-  top: 20%;
+  top: 30%;
 }
 
 .header-logo a {
@@ -1597,7 +1597,7 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   min-height: 82rem;
   background-color: #000000;
