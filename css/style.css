@@ -360,11 +360,11 @@ p {
   border-radius: 5px;
   position: relative;
   transition: all 0.3s ease-out 0s;
+  background-color: #ebd834;
 }
 
 .navbar-brand {
   padding: 0;
-  background-color: #ebd834;
 }
 
 .navbar-brand img {
