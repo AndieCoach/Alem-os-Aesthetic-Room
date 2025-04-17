@@ -340,6 +340,7 @@ p {
   width: 100%;
   z-index: 999;
   transition: all 0.3s ease-out 0s;
+  background-color: #3461eb;
 }
 
 .sticky {
@@ -363,6 +364,7 @@ p {
 
 .navbar-brand {
   padding: 0;
+  background-color: #ebd834;
 }
 
 .navbar-brand img {
