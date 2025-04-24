@@ -685,41 +685,41 @@ p {
 }
 
 .hero_content {
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .hero_content .hero_title {
   font-size: 60px;
-  line-height: 85px;
+  line-height: 45px;
   color: #fff;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero_content .hero_title {
     font-size: 44px;
-    line-height: 65px;
+    line-height: 35px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero_content .hero_title {
     font-size: 40px;
-    line-height: 60px;
+    line-height: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .hero_content .hero_title {
     font-size: 24px;
-    line-height: 38px;
+    line-height: 18px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero_content .hero_title {
     font-size: 40px;
-    line-height: 60px;
+    line-height: 30px;
   }
 }
 
@@ -731,7 +731,7 @@ p {
 .hero_content p {
   font-size: 16px;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -749,7 +749,7 @@ p {
 ===========================*/
 .single_features i {
   font-size: 60px;
-  line-height: 60px;
+  line-height: 40px;
   color: #e84ebc;
   transition: all 0.3s ease-out 0s;
 }
@@ -757,7 +757,7 @@ p {
 @media (max-width: 767px) {
   .single_features i {
     font-size: 40px;
-    line-height: 45px;
+    line-height: 30px;
   }
 }
 
