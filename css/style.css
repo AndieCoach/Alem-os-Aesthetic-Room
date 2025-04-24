@@ -35,7 +35,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 img {
@@ -140,8 +139,8 @@ p {
   border: 0;
   padding: 0 40px;
   font-size: 16px;
-  height: 3.5rem;
-  line-height: 4rem;
+  height: 55px;
+  line-height: 50px;
   border-radius: 10px;
   color: #fff;
   cursor: pointer;
@@ -205,7 +204,6 @@ p {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 4rem;
-  margin-left: -32px;
   z-index: 18;
   pointer-events: none;
 }
