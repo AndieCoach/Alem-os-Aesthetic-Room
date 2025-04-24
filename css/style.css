@@ -19,13 +19,13 @@
 /*===========================
     01.COMMON css 
 ===========================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Staatliches&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Questrial", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #5A5872;
@@ -76,7 +76,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Cal Sans", sans-serif;
   font-weight: 700;
   color: #fae3ff;
   margin: 0px;
@@ -691,36 +691,36 @@ p {
 
 .hero_content .hero_title {
   font-size: 60px;
-  line-height: 30px;
+  line-height: 40px;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero_content .hero_title {
     font-size: 44px;
-    line-height: 22px;
+    line-height: 33px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero_content .hero_title {
     font-size: 40px;
-    line-height: 20px;
+    line-height: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .hero_content .hero_title {
     font-size: 24px;
-    line-height: 12px;
+    line-height: 18px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero_content .hero_title {
     font-size: 40px;
-    line-height: 20px;
+    line-height: 28px;
   }
 }
 
@@ -730,9 +730,9 @@ p {
 }
 
 .hero_content p {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 @media (max-width: 767px) {
