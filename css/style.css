@@ -140,7 +140,7 @@ p {
   padding: 0 40px;
   font-size: 16px;
   height: 55px;
-  line-height: 50px;
+  line-height: 55px;
   border-radius: 10px;
   color: #fff;
   cursor: pointer;
@@ -202,8 +202,8 @@ p {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
-  width: 4rem;
+  margin-left: -32px;
+  width: 64px;
   z-index: 18;
   pointer-events: none;
 }
