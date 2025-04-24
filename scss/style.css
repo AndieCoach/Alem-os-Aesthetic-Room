@@ -139,14 +139,14 @@ p {
   transition: all 0.4s ease-out 0s;
   background-color: #E84E4E; }
   .main-btn:hover {
-    background-color: #ff6b6b;
+    background-color: #9a6bff;
     color: #fff; }
 
 /*===== All Section Title Style =====*/
 .section_title .title {
   font-size: 55px;
   font-weight: 700;
-  color: #5bf0d4;}
+  color: #00ebc0;}
   @media (max-width: 767px) {
     .section_title .title {
       font-size: 35px; } }
@@ -226,7 +226,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #E84E4E #E84E4E #F9F9F9;
+      border-color: #00ebc0 #00ebc0 #F9F9F9;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -472,7 +472,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .sticky .navbar {
-    padding: 15px 0; }
+    padding: 13px 0; }
 
 .navbar {
   padding: 20px 0;
@@ -607,10 +607,10 @@ p {
         color: #222; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
-        color: #E84E4E; } }
+        color: #00ebc0; } }
     @media (max-width: 767px) {
       .navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
-        color: #E84E4E; } }
+        color: #00ebc0; } }
     .navbar-nav .nav-item a.active::before, .navbar-nav .nav-item a:hover::before {
       width: 100%; }
   .navbar-nav .nav-item:hover .sub-menu {
@@ -663,7 +663,7 @@ p {
         color: #222; }
         .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
           padding-left: 25px;
-          color: #E84E4E; }
+          color: #00ebc0; }
 
 .navbar-nav .sub-nav-toggler {
   display: none; }
@@ -710,9 +710,9 @@ p {
 .sticky .navbar-nav .nav-item a {
   color: #222; }
   .sticky .navbar-nav .nav-item a::before {
-    background-color: #E84E4E; }
+    background-color: #00ebc0; }
   .sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
-    color: #E84E4E; }
+    color: #00ebc0; }
 
 /*===== hero =====*/
 .single_hero {
