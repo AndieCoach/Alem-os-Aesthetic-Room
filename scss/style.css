@@ -71,7 +71,7 @@ h4,
 h5,
 h6 {
   font-family: "Cal Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #2B2A3D;
   margin: 0px; }
 
@@ -99,9 +99,9 @@ ul, ol {
   list-style-type: none; }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 20px;
   color: #5A5872;
   margin: 0px; }
 
@@ -144,15 +144,15 @@ p {
 
 /*===== All Section Title Style =====*/
 .section_title .title {
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 700;
   color: #5bf0d4;}
   @media (max-width: 767px) {
     .section_title .title {
-      font-size: 32px; } }
+      font-size: 35px; } }
 
 .section_title p {
-  margin-top: 15px;
+  margin-top: 18px;
   font-size: 20px;
   color: #9e9db3; }
 
@@ -740,12 +740,12 @@ p {
     z-index: -1; }
 
 .hero_content {
-  padding-top: 20px; }
+  padding-top: 25px; }
   .hero_content .hero_title {
     font-size: 60px;
-    line-height: 40px;
+    line-height: 45px;
     color: #fff;
-    margin-top: 12px; }
+    margin-top: 15px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .hero_content .hero_title {
         font-size: 44px;
@@ -779,8 +779,8 @@ p {
       03.FEATURES css 
 ===========================*/
 .single_features i {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 38px;
   color: #E84E4E;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -790,11 +790,11 @@ p {
   @media (max-width: 767px) {
     .single_features i {
       font-size: 40px;
-      line-height: 45px; } }
+      line-height: 38px; } }
 
 .single_features .features_title {
   color: #E84E4E;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: 600;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -807,7 +807,7 @@ p {
       font-size: 24px; } }
 
 .single_features p {
-  margin-top: 15px; }
+  margin-top: 18px; }
 
 .single_features:hover i {
   color: #E84E4E; }
