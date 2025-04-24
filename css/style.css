@@ -732,17 +732,17 @@ p {
 .hero_content p {
   font-size: 18px;
   color: #fff;
-  margin-top: 24px;
+  margin-top: 22px;
 }
 
 @media (max-width: 767px) {
   .hero_content p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 .hero_content .main-btn {
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 /*===========================
