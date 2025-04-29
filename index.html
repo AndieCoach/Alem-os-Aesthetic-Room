@@ -37,7 +37,7 @@
       font-family: "Questrial", sans-serif;
       font-weight: normal;
       font-style: normal;
-      color: #5A5872;
+      
     }
     * {
       margin: 0;
@@ -59,7 +59,6 @@
     a:hover {
       text-decoration: none;
     }
-
     i,
     span,
     a {
@@ -211,27 +210,6 @@
           transform: rotate(-130deg);
         }
      }
-     .header_navbar {
-       position: absolute;
-       top: 0;
-       left: 0;
-       width: 100%;
-       z-index: 999;
-       transition: all 0.3s ease-out 0s;
-     }
-
-     .sticky {
-       position: fixed;
-       z-index: 99;
-       background-color: rgba(255, 255, 255, 0.88);
-       box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
-       transition: all 0.3s ease-out 0s;
-     }
-
-     .sticky .navbar {
-        padding: 15px 0;
-     }
-
      .navbar {
        padding: 0;
        margin: 0;
@@ -246,7 +224,7 @@
      }
 
      .navbar-brand img {
-       width: 165px;
+       width: 150px;
      }
 
      @media (max-width: 767px) {
@@ -254,43 +232,10 @@
        width: 143px;
        }
      } 
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
       .navbar-topbar {
           background-color: rgba(87,67,94,.8);
           width: 100%;
       }
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
       .nav-scroller {
         position: relative;
         z-index: 2;
@@ -324,43 +269,6 @@
         --bs-btn-active-color: var(--bs-btn-hover-color);
         --bs-btn-active-bg: #f0a6ff;
         --bs-btn-active-border-color: #f0a6ff;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .bi {
-        width: 1em;
-        height: 1em;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-        
-      /*===== BACK TO TOP =====*/
-      .back-to-top {
-        font-size: 20px;
-        color: #fff;
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        border-radius: 5px;
-        background-color: #e84ebc;
-        text-align: center;
-        z-index: 99;
-        transition: all 0.3s ease-out 0s;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-        display: none;
-      }
-
-      .back-to-top:hover {
-        color: #fff;
-        background-color: #e84ebc;
       }
       .animated-bg {
           background-image: url("images/single-site/site-bg.gif");
@@ -407,30 +315,26 @@
                  </div>
              </div>
          </div>
-     
         <!--====== HEADER PART START ======-->
+     <header>
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Inicio</a>
             <a class="nav-link fw-bold py-1 px-0" href="#">Nosotros</a>
             <a class="nav-link fw-bold py-1 px-0" href="#">Contacto</a>
           </nav>
-        </div>
       </header>
-    <main class="p-3">
+      <div class="row">
+      <main class="col p-3">
       <h1>¡Próximo Lanzamiento!</h1>
       <p class="lead pt-3">Te sorprenderás con todo lo que hemos preparado para nuestro sitio web y muy pronto tu felicidad se convertirá en una experiencia única, innovadora, pero sobre todo especial.</p>
       <p class="lead my-2">
         <a href="#" class="btn btn-lg btn-light fw-bold bl-hotpink">Saber Más</a>
       </p>
     </main>
-
-    <footer class="mt-auto text-white-50">
+    <div class="row">
+    <footer class="col mt-auto text-white-50">
       <p>Microsite made with 💖<br> by: <a href="https://andie.monster" class="text-white">Ander Alemán.</a></p>
     </footer>
-        
-    <!--====== BACK TOP TOP PART START ======-->
-    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
-    <!--====== BACK TOP TOP PART ENDS ======-->
 
     <!--====== Bootstrap js ======-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
