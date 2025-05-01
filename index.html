@@ -321,12 +321,10 @@
           opacity: .75;
           filter: brightness(1.3);
       }
-      #container {
+      .overlay, .box {
           height: 100vh;
       }
-      .header,
-      .main,
-      .footer {
+      .container {
           z-index: 5;
       }
     </style>
@@ -352,9 +350,10 @@
                  </div>
              </div>
          </div>
-       <div class="d-flex flex-column mb-3 text-center">
-         <div id="container" class="animated-bg">
-           <div id="header">
+       <div class="box d-flex flex-column mb-3 text-center">
+         <div class="overlay animated-bg"></div>
+             <div class="container h-100>
+               <div id="header">
       <!--====== TOP LINEAL BAR ======-->
       <nav class="navbar navbar-topbar">
         <a class="navbar-brand" href="index.html">
@@ -372,14 +371,14 @@
           </nav>
       </div>
       <div id="main" class="flex-grow-1 p-2">
-      <h1 class="py-3">¡Próximo Lanzamiento!</h1>
-      <p class="lead pt-2 my-2">Te sorprenderás con todo lo que hemos preparado para nuestro sitio web y muy pronto tu felicidad se convertirá en una experiencia única, innovadora, pero sobre todo especial.</p>
+      <div class="h1 py-3">¡Próximo Lanzamiento!</h1>
+      <p class="lead py-2 my-3">Te sorprenderás con todo lo que hemos preparado para nuestro sitio web y muy pronto tu felicidad se convertirá en una experiencia única, innovadora, pero sobre todo especial.</p>
       <p class="lead py-2 mt-2">
         <a href="#" class="btn btn-lg btn-customized">Saber Más</a>
       </p>
     </div>
-    <div id="footer"class="p-2 mt-auto text-white-50">
-      <p class="py-2">Microsite made with 💖 by: <a href="https://andie.monster" class="text-white">Ander Alemán.</a></p>
+    <div id="footer"class="p-3 mb-0 text-white-50">
+      <p class="pt-3">Microsite made with 💖 by: <a href="https://andie.monster" class="text-white">Ander Alemán.</a></p>
     </div>
 
     <!--====== Bootstrap js ======-->
